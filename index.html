@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>DEMANDE - gitINVEST</title>
 
   <style>
     body {
@@ -69,11 +69,11 @@
 <body>
 
 <form id="form">
-  <h2>Contact</h2>
+  <h2>DEMANDE - gitINVEST</h2>
 
   <input type="text" name="name" placeholder="Nom" required>
   <input type="email" name="email" placeholder="Email" required>
-  <textarea name="message" placeholder="Message" rows="5" required></textarea>
+  <textarea name="message" placeholder="Votre demande..." rows="5" required></textarea>
 
   <input type="text" name="_gotcha" style="display:none">
 
@@ -101,7 +101,7 @@
       });
 
       if (response.ok) {
-        status.innerHTML = "<p class='success'>✅ Message envoyé !</p>";
+        status.innerHTML = "<p class='success'>✅ Demande envoyée !</p>";
         form.reset();
       } else {
         status.innerHTML = "<p class='error'>❌ Erreur, réessaie.</p>";
